@@ -25,7 +25,7 @@ These two repositories are the two core ones, that composes our game
 - Browser-based client (no installs)
 
 ## Quick start — Play in 2 minutes
-1. Open the demo: https://example.com
+1. Open the demo: https://fps.so
 2. Connect wallet (Solana)
 3. Click Play → Join/Create match
 
