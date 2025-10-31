@@ -39,6 +39,11 @@ For local dev:
 - Client: raylib + rust + wasm (TypeScript)
 - Server / Orchestration: Fully onchain with Smart Contracts
 
+## Roadmap
+- Q1: More maps, game modes, and weapons; improved movement & gun physics; publish on Solana Dapp Store.
+- Q2: Ranked matchmaking with MMR; leaderboards; online tourneys.
+- Q3: Marketplace for cosmetic gun skins as NFTs, Battlepasses as subscription model for players to enjoy premium perks.
+
 ## Contact
 - Discord: https://discord.gg/nFD4gBjC79
 - Twitter: [@fps_so](https://x.com/fpsdotso)
