@@ -9,9 +9,12 @@
 ## About
 fps.so builds a fully on-chain, real-time 5v5 FPS on Solana — low-latency, composable, and playable in-browser. We focus on deterministic game logic, provable state, and smooth peer experiences.
 
-[Game Website](https://fps.so) • [Pitch Video](https://example.com) • [Live demo](https://example.com) • [Discord](https://discord.gg/nFD4gBjC79)
+[Game Website](https://fps.so) • [Pitch Video](https://www.loom.com/share/47cc2d7183c942f5b023ec63aa482a68) • [Technical demo](https://youtu.be/1jSeDycTRK4) • [Discord](https://discord.gg/nFD4gBjC79)
 
 ## Key repositories
+
+These two repositories are the two core ones, that composes our game
+
 - [fpsdotso-contracts](https://github.com/fpsdotso/fpsdotso-contracts) — Programs that are deployed onto solana (includes matchmaking, map-registry and game)
 - [fpsdotso-game](https://github.com/fpsdotso/fpsdotso-game) - Game Interface made with React and Rust [Raylib](https://raylib.com) WASM
 
@@ -33,17 +36,8 @@ For local dev:
 ## Architecture & Tech
 - Blockchain: Solana
 - Rollups: Magicblock Ephemeral Rollup
-- Client: WebGL + wasm (TypeScript)
-- Server / Orchestration: Rust / Node.js (on-chain validations)
-
-## Contributing
-We welcome contributors. Please:
-1. Read CODE_OF_CONDUCT and CONTRIBUTING.md in each repo
-2. Open issues for bugs or RFCs
-3. Send PRs against main branch; include tests & changelog entries
-
-## Governance & Roadmap
-Planned: ranked matches, spectate mode, weapon economy. See the roadmap in the core repo.
+- Client: raylib + rust + wasm (TypeScript)
+- Server / Orchestration: Fully onchain with Smart Contracts
 
 ## Contact
 - Discord: https://discord.gg/nFD4gBjC79
